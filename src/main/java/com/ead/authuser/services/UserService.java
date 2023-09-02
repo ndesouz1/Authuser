@@ -9,7 +9,7 @@ public interface UserService {
 
     List<UserModel> findAll();
 
-    Optional<UserModel> finndById(UUID userId);
+    Optional<UserModel> findById(UUID userId);
 
     void delete(UserModel userModel);
 
